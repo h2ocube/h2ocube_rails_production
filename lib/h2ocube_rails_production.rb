@@ -1,4 +1,4 @@
-%w(rainbows exception_notifier).each{ |gem| require gem }
+%w(rainbows exception_notification).each{ |gem| require gem }
 
 
 module H2ocubeRailsProduction
