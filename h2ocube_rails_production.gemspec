@@ -17,5 +17,5 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  %w(rainbows exception_notification).each{ |gem| spec.add_dependency gem }
+  %w(rainbows exception_notification whenever god).each{ |gem| spec.add_dependency gem }
 end
