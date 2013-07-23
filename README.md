@@ -1,7 +1,6 @@
 # H2ocubeRailsProduction
 
 [![Gem Version](https://badge.fury.io/rb/h2ocube_rails_production.png)](http://badge.fury.io/rb/h2ocube_rails_production)
-[![Code Climate](https://codeclimate.com/github/h2ocube/h2ocube_rails_production.png)](https://codeclimate.com/github/h2ocube/h2ocube_rails_production)
 
 Just a collection for production gems
 
