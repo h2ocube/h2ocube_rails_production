@@ -28,6 +28,7 @@ see include gems below :p
 * exception_notification http://smartinez87.github.io/exception_notification/
 * whenever https://github.com/javan/whenever/
 * god http://godrb.com/
+* h2ocube_rails_cache https://github.com/h2ocube/h2ocube_rails_cache
 
 ## Contributing
 
