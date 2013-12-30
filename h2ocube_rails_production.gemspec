@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = 'h2ocube_rails_production'
-  spec.version       = '0.0.5'
+  spec.version       = '0.1.0'
   spec.authors       = ['Ben']
   spec.email         = ['ben@zfben.com']
   spec.description   = %q{Just a collection for production gems}
@@ -17,5 +17,8 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  %w(rainbows exception_notification whenever god h2ocube_rails_cache).each{ |gem| spec.add_dependency gem }
+  spec.add_dependency 'exception_notification', '~> 4.0'
+  spec.add_dependency 'whenever'
+  spec.add_dependency 'god'
+  spec.add_dependency 'h2ocube_rails_cache'
 end

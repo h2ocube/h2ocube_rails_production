@@ -24,7 +24,6 @@ see include gems below :p
 
 ## Include
 
-* rainbows http://rainbows.rubyforge.org/
 * exception_notification http://smartinez87.github.io/exception_notification/
 * whenever https://github.com/javan/whenever/
 * god http://godrb.com/
