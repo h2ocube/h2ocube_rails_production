@@ -24,10 +24,9 @@ see include gems below :p
 
 ## Include
 
-* exception_notification http://smartinez87.github.io/exception_notification/
-* whenever https://github.com/javan/whenever/
-* god http://godrb.com/
-* h2ocube_rails_cache https://github.com/h2ocube/h2ocube_rails_cache
+* lograge https://github.com/roidrage/lograge
+* newrelic_rpm https://github.com/newrelic/rpm
+* syslogger https://github.com/crohr/syslogger
 
 ## Contributing
 
