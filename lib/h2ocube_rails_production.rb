@@ -1,7 +1,7 @@
 %w(lograge newrelic_rpm syslogger).each{ |gem| require gem }
 
 module H2ocubeRailsProduction
-  class Engine < ::Rails::Engine
+  class Railtie < Rails::Railtie
     initializer 'h2ocube_rails_production.require_dependency' do |app|
       app.config.log_level = :info
       app.config.logger = Syslogger.new(Rails.env.to_s, Syslog::LOG_PID, Syslog::LOG_LOCAL7)
