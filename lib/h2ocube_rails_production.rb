@@ -2,7 +2,7 @@
 
 module H2ocubeRailsProduction
   class Railtie < Rails::Railtie
-    initializer 'h2ocube_rails_production.require_dependency' do |app|
+    config.before_configuration do |app|
       app.config.log_level = :info
       app.config.logger = Syslogger.new(Rails.env.to_s, Syslog::LOG_PID, Syslog::LOG_LOCAL7)
       app.config.lograge.enabled = true
